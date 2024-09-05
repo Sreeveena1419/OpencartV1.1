@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+	<listeners>
+		<listener class-name="utilities.Extendreports"/>
+	</listeners>
+	
+  <test thread-count="5" name="Linuxtest">
+	<parameter name="os" value="Linux"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+     <!-- <class name="testCases.TC001_AccReg"/> -->
+     <!-- <class name="testCases.TC002_Login"/> -->
+     <!--<class name="testCases.TC003_LoginDDT"/> -->
+     <!-- <class name="testCases.TC004_MacToCart"/> -->
+     <class name="testCases.TC005_SamsungToCart" />
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

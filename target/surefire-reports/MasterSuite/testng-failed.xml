@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [MasterSuite]" verbose="0">
+  <parameter name="os" value="windows"/>
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.Extendreports"/>
+  </listeners>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC005_SamsungToCart">
+        <methods>
+          <include name="SamsungToCart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC005_SamsungToCart -->
+      <class name="testCases.TC004_MacToCart">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="Addmac"/>
+        </methods>
+      </class> <!-- testCases.TC004_MacToCart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MasterSuite] -->
