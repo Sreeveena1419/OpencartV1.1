@@ -160,3 +160,9 @@
 23:14:53.612 [main] INFO  testCases.TC005_SamsungToCart - +_+_+_+_+_**Starting Testcase 05++^+&+&+*+*
 15:03:59.578 [main] INFO  testCases.TC005_SamsungToCart - +_+_+_+_+_**Starting Testcase 05++^+&+&+*+*
 15:04:05.612 [main] INFO  testCases.TC005_SamsungToCart - +_+_+_+_+_**Finishing Testcase 05++^+&+&+*+*
+23:49:09.035 [main] INFO  testCases.TC004_MacToCart - ******TC004 Starting*****
+23:49:09.474 [main] INFO  testCases.TC004_MacToCart - -------Logging into the app --------
+23:49:11.848 [main] INFO  testCases.TC004_MacToCart - -------- adding the mac to cart ------
+23:49:12.165 [main] INFO  testCases.TC004_MacToCart - ****TEST COMPLETED******
+23:49:17.563 [main] INFO  testCases.TC005_SamsungToCart - +_+_+_+_+_**Starting Testcase 05++^+&+&+*+*
+23:49:20.988 [main] INFO  testCases.TC005_SamsungToCart - +_+_+_+_+_**Finishing Testcase 05++^+&+&+*+*
